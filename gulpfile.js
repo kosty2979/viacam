@@ -197,4 +197,16 @@ gulp.task('ftp', function() {
    }));
 });
 
+gulp.task('ftp2', function() {
+ return gulp.src('dist/**/*.*')
+   .pipe(ftp({
+     host: 'www.zzz.com.ua',
+     remotePath: '',
+     port: 21,
+     user: 'admin@kos.zzz.com.ua',
+     pass: '29011979'
+   }));
+});
+
 gulp.task('deploy_WF', gulpsync.sync(['clean', 'build', 'ftp']));
+gulp.task('deploy_zzz', gulpsync.sync(['clean', 'build', 'ftp2']));
