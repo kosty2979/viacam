@@ -1,0 +1,24 @@
+Vyacheslav
+
+lyuty@ukr.net
+
+Magic Zoom covers header on hover but it doesn't.
+
+Hello.
+As You can see on screenshot (http://image.prntscr.com/image/cab52910c25942afa442f71310f847e9.png)
+magic zoom hover everything. Even header. I can't figure out how to make header to be over the MagicZoom picture.
+Please, help me to apply some css or tell me the way to place Magic Zoom under the header.
+Thank You.
+
+
+        1) URL of the page with issue:
+http://workfield.hol.es
+
+        2) FTP access:
+FTP server: ftp.workfield.hol.es
+FTP IP:	185.28.20.42
+FTP port:	21
+FTP user: u777210704
+FTP password: bgQd0Vg225
+
+        3) Admin area is absent

@@ -1,0 +1,469 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5">
+  <title>ViacanAlt</title>
+
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- build:css styles/vendor.css -->
+  <!-- bower:css -->
+  <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css" />
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:css styles/main.css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/magiczoom.css">
+  <link rel="stylesheet" href="styles/responsiveslides.css">
+  <!-- endbuild -->
+
+</head>
+
+<body>
+  <!--[if lt IE 10]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+  <div class="mainWrapper">
+    <aside>
+      <div>
+        <img src="images/closeAsideButton.png" alt="close" onclick="closeLeftMenu()" />
+        <img src="images/ViacanLogoWeb.png" alt="logo" onclick="closeLeftMenu()" />
+        <a href="tel:+4401664400410">+44 (0) 1664 400 410</a>
+      </div>
+      <div>
+        <ul>
+          <li><a href="#canBus" onclick="closeLeftMenu()">CAN Bus</a></li>
+          <li><a href="#trailerTracking" onclick="closeLeftMenu()">Trailer Tracking</a></li>
+          <li><a href="#webUserInterface" onclick="closeLeftMenu()">Vehicle Tracking</a></li>
+          <li><a href="#driverChecksApp" onclick="closeLeftMenu()">Driver Checks App.</a></li>
+          <li><a href="#camera" onclick="closeLeftMenu()">Camera</a></li>
+          <li><a href="#nativeApps" onclick="closeLeftMenu()">Native Apps.</a></li>
+          <li><a href="#service" onclick="closeLeftMenu()">Service</a></li>
+          <li><a href="#contact" onclick="closeLeftMenu()">Contact</a></li>
+        </ul>
+      </div>
+      <button type="button">LOGIN</button>
+    </aside>
+    <nav class="header">
+      <div class="leftSide">
+        <img id="menuIcon" src="/images/MenuIcon.png" alt="Menu Icon" onclick="openLeftMenu()">
+        <div>
+          <a href="#">
+            <img src="/images/ViacanLogoWeb.png" alt="Logo Web">
+          </a>
+        </div>
+        <ul class="hideWhenMobile">
+          <li><a href="#canBus">CAN BUS</a></li>
+          <li><a href="#trailerTracking">TRAILER TRACKING</a></li>
+          <li><a href="#webUserInterface">VEHICLE TRACKING</a></li>
+          <li><a href="#driverChecksApp">DRIVER CHECKS APP</a></li>
+          <li><a href="#camera">CAMERA</a></li>
+          <!-- <li><a href="#nativeApps">NATIVE APPS</a></li>
+          <li><a href="#service">SERVICE</a></li> -->
+        </ul>
+      </div>
+      <div class="rightSide">
+        <a href="#contact" class="hideWhenMobile">CONTACT</a>
+        <!-- <button type="button" name="button" class="hideWhenMobile">CONTACT</button> -->
+        <button type="button" name="button" class="hideWhenMobile">LOGIN</button>
+        <a href="tel:+4401664400410">+44 (0) 1664 400 410</a>
+      </div>
+    </nav>
+    <section id="mainSlider">
+      <ul class="rslidesAuto linker">
+        <li><img src="images/MainSliderSlide01.jpg" alt="slide01" /></li>
+        <li><img src="images/MainSliderSlide02.jpg" alt="slide02" /></li>
+        <li><img src="images/MainSliderSlide03.jpg" alt="slide03" /></li>
+        <li><img src="images/MainSliderSlide04.jpg" alt="slide04" /></li>
+      </ul>
+      <div id="findOutMoreLink">
+        <a href="">Find out more</a>
+        <a href="">
+          <!-- <i class="fa fa-arrow-down fa-inverse"></i> -->
+          <img src="images/ArrowDown.png" alt="">
+        </a>
+      </div>
+    </section>
+    <section id="canBus">
+      <div class="canBusScroll">
+      <div id="macBookSlider">
+        <img src="/images/MacbookAirFlat.png" alt="MacbookAirFlat">
+        <div >
+          <ul class="rslides">
+            <li>
+                <img src="images/CanBusImg1.jpg" />
+              </a>
+            </li>
+            <li>
+                <img src="images/CanBusImg2.jpg" />
+              </a>
+            </li>
+            <li>
+                <img src="images/CanBusImg3.jpg" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="canBusText">
+        <p>'CAN bus' built into VIACAN</p>
+        <p>More control and visibility of your HGV fleet with MPG Recording, Fuel Tank Level Monitoring, Tachograph Status and Driver Behaviour Analysis.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="canBusText scrollText--hide">
+        <p>'CAN bus' built into VIACAN</p>
+        <p>More control and visibility of your HGV fleet with MPG Recording, Fuel Tank Level Monitoring, Tachograph Status and Driver Behaviour Analysis.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="canBusText scrollText--hide">
+        <p>'CAN bus' built into VIACAN</p>
+        <p>More control and visibility of your HGV fleet with MPG Recording, Fuel Tank Level Monitoring, Tachograph Status and Driver Behaviour Analysis.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+    </section>
+    <section id="trailerTracking">
+      <div>
+        <img src="/images/HalfMacBook.png" alt="MacbookAirFlatHalf">
+        <div>
+            <img src="images/TrailerTracking.jpg" />
+        </div>
+      </div>
+      <div>
+        <p>Trailer Tracking</p>
+        <p>Trailer tracking locations with no monthly fees</p>
+        <p>VIACAN’s data sender transmits its ID down the susie and over the CAN network to the the receiver, sending hooking and unhooking events in real-time.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div id="whiteSquare"></div>
+    </section>
+    <section id="driverChecksApp">
+      <div>
+        <div>
+          <div>
+            <img src="images/DriverChecksAppMobile.png" alt="" />
+            <div>
+                <img src="images/DriverChecksAppMobileScreen.png" />
+            </div>
+          </div>
+          <div>
+            <img src="images/DriverChecksAppLaptop.png" alt="">
+            <div>
+                <img src="images/DriverChecksAppLaptopScreen.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>Driver Checks App.</p>
+        <p>Prices start from £3.00 per vehicle per month</p>
+        <p>Off-the-shelf and customised mobile Applications for your drivers.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="dummy"></div>
+      <div class="dummy"></div>
+      <div class="dummy">
+      </div>
+      <img src="images/StripedSquare.png" alt="Striped square">
+    </section>
+    <section id="webUserInterface">
+      <div class="webUserScroll">
+      <div id="macBookSlider">
+        <img src="/images/SemiMacBook.png" alt="MacbookAirFlat">
+        <div>
+          <ul class="rslides">
+            <li>
+                <img src="images/WebUserInterface1.jpg" />
+              </a>
+            </li>
+            <li>
+                <img src="images/WebUserInterface2.jpg" />
+              </a>
+            </li>
+            <li>
+                <img src="images/WebUserInterface3.jpg" />
+              </a>
+            </li>
+            <li>
+                <img src="images/WebUserInterface4.jpg" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+      <div class="webUserText">
+        <p>Web User Interface</p>
+        <p>All features are included with any package</p>
+        <p>* usage fee applies</p>
+        <p>** additional installation fee</p>
+        <p>Simple to use modern HTML5 browser based User Interface with Scheduled Reports, Geo-fence Alerts, Two-way Messaging*, Speeding Report, Driver Behaviour League Table, Idling Reports, Journey Reports, Driver ID* and many more.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="webUserText scrollText--hide">
+        <p>Web User Interface</p>
+        <p>All features are included with any package</p>
+        <p>* usage fee applies</p>
+        <p>** additional installation fee</p>
+        <p>Simple to use modern HTML5 browser based User Interface with Scheduled Reports, Geo-fence Alerts, Two-way Messaging*, Speeding Report, Driver Behaviour League Table, Idling Reports, Journey Reports, Driver ID* and many more.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="webUserText scrollText--hide">
+        <p>Web User Interface</p>
+        <p>All features are included with any package</p>
+        <p>* usage fee applies</p>
+        <p>** additional installation fee</p>
+        <p>Simple to use modern HTML5 browser based User Interface with Scheduled Reports, Geo-fence Alerts, Two-way Messaging*, Speeding Report, Driver Behaviour League Table, Idling Reports, Journey Reports, Driver ID* and many more.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="webUserText scrollText--hide">
+        <p>Web User Interface</p>
+        <p>All features are included with any package</p>
+        <p>* usage fee applies</p>
+        <p>** additional installation fee</p>
+        <p>Simple to use modern HTML5 browser based User Interface with Scheduled Reports, Geo-fence Alerts, Two-way Messaging*, Speeding Report, Driver Behaviour League Table, Idling Reports, Journey Reports, Driver ID* and many more.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+    </section>
+    <section id="nativeApps">
+      <div id="fixScroll">
+        <div>
+           <img src="images/NativeAppsiPhone.png" alt="iPhone">
+          <div>
+            <ul class="rslides split navigator">
+              <li>
+                  <img src="images/NativeAppsiPhone5.png" />
+              </li>
+              <li>
+                  <img src="images/NativeAppsiPhone4.png" />
+              </li>
+              <li>
+                  <img src="images/NativeAppsiPhone2.png" />
+              </li>
+              <li>
+                  <img src="images/NativeAppsiPhone6.png" />
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+        <div>
+          <img src="images/NativeAppsAndroidPhone.png" alt="AndroidPhone">
+          <div>
+            <ul class="rslides split">
+              <li>
+                  <img src="images/NativeAppsAndroidPhone5.jpg" />
+              </li>
+              <li>
+                  <img src="images/NativeAppsAndroidPhone4.jpg" />
+              </li>
+              <li>
+                  <img src="images/NativeAppsAndroidPhone2.jpg" />
+              </li>
+              <li>
+                  <img src="images/NativeAppsAndroidPhone6.jpg" />
+              </li>
+             
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="scrollText">
+        <p>Native Apps.</p>
+        <p>Use of the native Apps. is included with any package</p>
+        <p>Native Apps. for iPhone & Android are perfect for high service environments where keeping tabs on your fleet is vital to good customer service.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+        <br>
+        <img src="/images/AppStore.png" alt="App Store">
+        <img src="/images/GooglePlay.png" alt="Google Play">
+      </div>
+      <div class="scrollText scrollText--hide">
+        <p>Native Apps.</p>
+        <p>Use of the native Apps. is included with any package</p>
+        <p>Native Apps. for iPhone & Android are perfect for high service environments where keeping tabs on your fleet is vital to good customer service.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+        <br>
+        <img src="/images/AppStore.png" alt="App Store">
+        <img src="/images/GooglePlay.png" alt="Google Play">
+      </div>
+      <div class="scrollText scrollText--hide">
+        <p>Native Apps.</p>
+        <p>Use of the native Apps. is included with any package</p>
+        <p>Native Apps. for iPhone & Android are perfect for high service environments where keeping tabs on your fleet is vital to good customer service.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+        <br>
+        <img src="/images/AppStore.png" alt="App Store">
+        <img src="/images/GooglePlay.png" alt="Google Play">
+      </div>
+      <div class="scrollText scrollText--hide">
+        <p>Native Apps.</p>
+        <p>Use of the native Apps. is included with any package</p>
+        <p>Native Apps. for iPhone & Android are perfect for high service environments where keeping tabs on your fleet is vital to good customer service.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+        <br>
+        <img src="/images/AppStore.png" alt="App Store">
+        <img src="/images/GooglePlay.png" alt="Google Play">
+      </div>
+    </section>
+    <section id="camera">
+      <div>
+        <img src="/images/Camera.png" alt="Camera">
+      </div>
+      <div>
+        <p>Camera</p>
+        <p>When installing your CAN bus system, a clean professional camera installation from VIACAN adds extra visibility and protection</p>
+        <p>A discreet camera with hidden wiring requires no driver operation, ensuring it’s always on when you need it.</p>
+        <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="dummy"></div>
+    </section>
+    <section id="service">
+      <div>
+        <img src="/images/Service.png" alt="Service">
+      </div>
+      <div>
+          <p>Service</p>
+          <p>We follow up with a lifetime guarantee on all hardware, replacing it on-site free of charge should it ever let you down</p>
+          <p>We’re here to serve. We supply and install the hardware. The User Interface is extremely simple to use but we also provide on-site training and web-based training so you can get the most out of your investment.</p>
+          <a href="#contact">Contact to find out more <i class="fa fa-chevron-right"></i></a>
+      </div>
+      <div class="dummy"></div>
+    </section>
+    <section id="contact">
+      <div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-xs-12">CONTACT</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-1">
+              <!-- <i class="fa fa-phone"></i> -->
+              <img src="images/PhoneImage.png" alt="Phone">
+            </div>
+            <div class="col-xs-11">+44 (0) 1664 400 010</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-1">
+              <!-- <i class="fa fa-envelope"></i> -->
+              <img src="images/EnvelopeImage.png" alt="Envelope">
+            </div>
+            <div class="col-xs-11">info@viacan.co.uk</div>
+          </div>
+          <div class="row">
+            <div class="col-xs-1">
+              <img src="images/HomeImage.png" alt="Home">
+            </div>
+            <div class="col-xs-11">Harwood House, Park Road, MELTON MOWBRAY. Leicestershire. LE13 1TX</div>
+          </div>
+        </div>
+      </div>
+      <div></div>
+      <div>
+        <form action="" method="post">
+          <p>GET IN TOUCH</p>
+          <p>If you’d like more information about VIACAN please write us</p>
+          <input type="textfield" name="name" placeholder="Name">
+          <input type="textfield" name="email" placeholder="Email">
+          <input type="textfield" name="phone" placeholder="Phone">
+          <textarea name="message" rows="2" placeholder="Message"></textarea>
+          <button type="button" name="send">Send</button>
+        </form>
+      </div>
+    </section>
+    <div class="footer">
+      <div>
+        <div>
+          <img src="/images/AppStore.png" alt="AppStore">
+          <img src="/images/GooglePlay.png" alt="GooglePlay">
+        </div>
+        <div>
+          <div>
+            <a href="#canBus">CAN Bus</a>
+            <br>
+            <a href="#trailerTracking">Trailer Tracking</a>
+            <br>
+            <a href="#webUserInterface">Vehicle Tracking</a>
+          </div>
+          <div>
+            <a href="#driverChecksApp">Driver Checks App.</a>
+            <br>
+            <a href="#camera">Camera</a>
+            <br>
+            <a href="#nativeApps">Native Apps.</a>
+          </div>
+          <div>
+            <a href="#service">Service</a>
+            <br>
+            <a href="#contact">Contact</a>
+            <br>
+            <a href="">Login</a>
+          </div>
+        </div>
+        <div>
+          <span>GET IN TOUCH</span>
+          <br>
+          <a href="tel:+4401664400410">+44 (0) 1664 400 410</a>
+          <br>
+          <a href="mailto:info@viacan.co.uk">info@viacan.co.uk</a>
+        </div>
+      </div>
+      <div>© 2016 VIACAN LLP / all rights reserved.</div>
+    </div>
+  </div>
+
+  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+  <script>
+    (function(b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l;
+      b[l] || (b[l] =
+        function() {
+          (b[l].q = b[l].q || []).push(arguments)
+        });
+      b[l].l = +new Date;
+      e = o.createElement(i);
+      r = o.getElementsByTagName(i)[0];
+      e.src = 'https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');
+  </script>
+
+  <!-- build:js scripts/vendor.js -->
+  <!-- bower:js -->
+  <script src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="/bower_components/device.js/lib/device.js"></script>
+  <!-- endbower -->
+  <!-- endbuild -->
+
+  <!-- build:js scripts/plugins.js -->
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+  <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+  <!-- endbuild -->
+
+  <!-- build:js scripts/main.js -->
+  <script src="scripts/main.js"></script>
+  <script src="scripts/magiczoom.js"></script>
+  <script src="scripts/responsiveslides.js"></script>
+  <script src="scripts/slidesSplitter.js"></script>
+  <script src="scripts/slidesLinker.js"></script>
+  <!-- endbuild -->
+</body>
+
+</html>

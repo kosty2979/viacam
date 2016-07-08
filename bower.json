@@ -1,0 +1,31 @@
+{
+  "name": "viacanalt",
+  "private": true,
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "device.js": "devicejs#^0.2.7",
+    "font-awesome": "^4.6.3"
+  },
+  "overrides": {
+    "bootstrap-sass": {
+      "main": [
+        "assets/stylesheets/_bootstrap.scss",
+        "assets/fonts/bootstrap/*",
+        "assets/javascripts/bootstrap.js"
+      ]
+    },
+    "font-awesome": {
+          "main": [
+              "css/font-awesome.css",
+              "fonts/fontawesome-webfont.eot",
+              "fonts/fontawesome-webfont.woff",
+              "fonts/fontawesome-webfont.ttf",
+              "fonts/fontawesome-webfont.svg"
+          ]
+      }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
