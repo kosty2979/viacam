@@ -8,7 +8,6 @@ $icon-font-path: '../fonts/'; // bower:scss
   display: none;
 }
 
-
 html {
   &.desktop {
     body {
@@ -431,6 +430,7 @@ html {
                     color: #515151;
                     font-size: 24px;
                     font-weight: 400;
+
                   }
                   &:nth-child(2) {
                     font-family: BariolSerif;

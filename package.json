@@ -43,6 +43,8 @@
     }
   },
   "dependencies": {
-    "gulp-ftp": "^1.1.0"
+    "dev": "^0.1.3",
+    "gulp-ftp": "^1.1.0",
+    "node-sass": "^3.8.0"
   }
 }

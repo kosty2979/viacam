@@ -105,9 +105,9 @@ $(document).ready($(function () {
            slideScroll2();
            slideScroll3();
          });
-     slideScroll1();
-     slideScroll2();
-     slideScroll3();
+  slideScroll1();
+  slideScroll2();
+  slideScroll3();
   }
 
   setLink();
